@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JockyCipher</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+  <script src="p5.min.js"></script>
+  <script src="p5.js"></script>
+  <script src="p5.pre-min.js"></script>
+  <script src="encrypt.js"></script>
+  <script src="decrypt.js"></script>
+</head>
+
+<body>
+  <script>
+    // function decrypt() {
+    //   var name = document.getElementById("dec").value;
+    //
+    //   var vals = "Aa";
+    //   var valueOfUpper = vals.charCodeAt(0);
+    //   var valueOfLower = vals.charCodeAt(1);
+    //
+    //   for (var j = 0; j < name.length; j++) {
+    //     var charNeed = name.charAt(j);
+    //     var charNeedUpper = charNeed.toUpperCase();
+    //
+    //     if (charNeed == charNeedUpper) {
+    //       var codeNum = ((str.charCodeAt(i) - valueOfUpper) - n) % 26;
+    //       var newCodeNum = codeNum + valueOfUpper;
+    //       console.log(newCodeNum);
+    //     }
+    //   }
+    // }
+  </script>
+  <p> HELLO FRIENDS </p>
+  <form onsubmit="encrypt(); return false">
+    Enter text to be encrypted here:<br>
+    <input id="name" type="text" name="firstname"><br>
+    <input type="submit" value="submit">
+  </form>
+  <form>
+    Output:<br>
+    <input id="output" type="text" name="output"><br>
+  </form>
+  <p> </p>
+  <p> </p>
+  <form onsubmit="mencrypt(); return false">
+    Enter text to be decrypted here:<br>
+    <input id="dec" type="text" name="decrypt"><br>
+    <input type="submit" value="submit">
+  </form>
+  <form>
+    Output:<br>
+    <input id="gOutput" type="text" name="output"><br>
+  </form>
+</body>
+
+</html>
