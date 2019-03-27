@@ -36,6 +36,6 @@ function encrypt() {
 
   finalString = finalArr.join(" ");
   // console.log(newArr);
-  console.log(finalString);
+  // console.log(finalString);
   document.getElementById("output").value = finalString;
 }

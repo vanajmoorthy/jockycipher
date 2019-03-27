@@ -17,22 +17,26 @@ function mencrypt() {
       var charNeedUpper = charNeed.toUpperCase();
 
       if (charNeed == charNeedUpper) {
-        var codeNum = ((name[i].charCodeAt(j) - valueOfUpper) - name.length) % 26;
+        var codeNum = ((name[i].charCodeAt(j) - valueOfUpper) - name[i].length) % 26;
         var newCodeNum = codeNum + valueOfUpper;
         var res = String.fromCharCode(newCodeNum);
         newArr[i] = res;
-      }
-      else {
-        var codeNum = ((name[i].charCodeAt(j) - valueOfLower) - name.length) % 26;
+      } else {
+        var codeNum = ((name[i].charCodeAt(j) - valueOfLower) - name[i].length) % 26;
+        // console.log(name[i].charCodeAt(j) - valueOfLower);
+        // console.log(codeNum);
+        // console.log(name.length);
         var newCodeNum = codeNum + valueOfLower;
         var res = String.fromCharCode(newCodeNum);
         var newString = "";
         newString += res;
       }
       finalArr[j] = newString;
+
     }
   finalString = finalArr.join("");
-  console.log(finalString);
+        console.log(finalString);
+  // console.log(finalString);
   // console.log(newArr);
   // console.log(finalString);
   document.getElementById("gOutput").value = finalString;
