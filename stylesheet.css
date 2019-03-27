@@ -63,7 +63,26 @@ p {
 
 .wrapper {
   text-align: center;
+  height: 40%;
 }
+
+.wrapperer {
+  text-align: center;
+  height;
+  20%;
+}
+
+.centerer {
+  padding-top: none;
+  border-radius: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 3px;
+  background-color: white;
+  display: inline-block;
+  margin-top: 10vh;
+}
+
 
 .centerr {
   /* margin-left: 30%; */
@@ -74,7 +93,7 @@ p {
   padding-bottom: 30px;
   background-color: white;
   display: inline-block;
-  margin-top: 28vh;
+  margin-top: 5vh;
 }
 
 p {
@@ -85,11 +104,13 @@ p {
 form {
   color: black;
   font-family: 'Open Sans';
+  font-size: 20px;
 }
 
 input[type=submit] {
   font-family: 'Open Sans';
   color: white;
+  font-size: 15px;
   margin-top: 7px;
   margin-bottom: 7px;
   /* padding: 5px; */
@@ -97,10 +118,17 @@ input[type=submit] {
   border: none;
   /* background-color: #777777; */
   /* -webkit-border-radius: 5px; */
-  border-radius: 5px;
+  border-radius: 20px;
   background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
   background-size: 400% 400%;
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
   animation: Gradient 15s ease infinite;
+}
+
+h1 {
+  font-family: 'Open Sans';
+  color: black;
+  font-weight: lighter;
+  font-size: 28px;
 }
