@@ -32,7 +32,7 @@ function mencrypt() {
         newString += res;
       }
       finalArr[j] = newString;
-
+      console.log(finalArr[j]);
     }
   finalString = finalArr.join("");
         console.log(finalString);
