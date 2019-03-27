@@ -89,7 +89,9 @@ form {
 
 input[type=submit] {
   font-family: 'Open Sans';
+  color: white;
   margin-top: 7px;
+  margin-bottom: 7px;
   /* padding: 5px; */
   padding-bottom: 2px;
   border: none;
