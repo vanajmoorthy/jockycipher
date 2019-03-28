@@ -158,6 +158,7 @@ input[type=text] {
   border: 1.3px solid grey;
   border-radius: 20px;
   padding: 5px;
+  margin-top: 12px;
   /* size: 40; */
   /* background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
   background-size: 400% 400%;
