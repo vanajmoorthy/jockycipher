@@ -118,7 +118,7 @@ input[type=submit] {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
-  border: none;
+  border: 7px, black;
   /* background-color: #777777; */
   /* -webkit-border-radius: 5px; */
   border-radius: 50px;
@@ -127,6 +127,41 @@ input[type=submit] {
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
   animation: Gradient 15s ease infinite;
+}
+
+input[type=submit]:hover {
+  font-family: 'Open Sans';
+  opacity: 0.5;
+  border: 7px, solid black;
+  color: white;
+  font-size: 15px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  /* padding: 5px; */
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  /* border: none; */
+  /* background-color: #777777; */
+  /* -webkit-border-radius: 5px; */
+  border-radius: 50px;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+input[type=text] {
+  border: 1.5px solid black;
+  border-radius: 20px;
+  /* background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+  border: none; */
 }
 
 h1 {
