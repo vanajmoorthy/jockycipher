@@ -1,4 +1,4 @@
-‘body {
+body {
   width: 100wh;
   height: 90vh;
   color: #fff;
@@ -105,6 +105,7 @@ form {
   color: black;
   font-family: 'Open Sans';
   font-size: 20px;
+  padding: 5px;
 }
 
 input[type=submit] {
@@ -154,8 +155,10 @@ input[type=submit]:hover {
 }
 
 input[type=text] {
-  border: 1.5px solid black;
+  border: 1.3px solid grey;
   border-radius: 20px;
+  padding: 5px;
+  /* size: 40; */
   /* background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
   background-size: 400% 400%;
   -webkit-animation: Gradient 15s ease infinite;
