@@ -111,9 +111,9 @@ form {
 input[type=submit] {
   font-family: 'Open Sans';
   color: white;
-  font-size: 15px;
-  margin-top: 7px;
-  margin-bottom: 7px;
+  font-size: 17px;
+  margin-top: 17px;
+  margin-bottom: none;
   /* padding: 5px; */
   padding-bottom: 5px;
   padding-left: 10px;
@@ -136,7 +136,7 @@ input[type=submit]:hover {
   border: 7px, solid black;
   color: white;
   font-size: 15px;
-  margin-top: 7px;
+  margin-top: 15px;
   margin-bottom: 7px;
   /* padding: 5px; */
   padding-bottom: 5px;
@@ -173,3 +173,7 @@ h1 {
   font-weight: lighter;
   font-size: 28px;
 }
+/*
+#encryptionOutput, #encryptionInput {
+  padding-top: n
+} */
